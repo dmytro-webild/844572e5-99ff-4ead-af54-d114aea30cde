@@ -106,7 +106,7 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       members={[
-        { id: "t1", name: "CEO BRGD", role: "Sports Management", description: "Leading BRGD for over 24 years.", imageSrc: "http://img.b2bpic.net/free-photo/successful-confident-businessman-glasses-speaking-beige-wall_176420-129.jpg" },
+        { id: "t1", name: "CEO BRGD", role: "Sports Management", description: "Leading BRGD for over 24 years.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do6sgbi6jl62TwwqVebatHryuV/uploaded-1778936632365-qq4r7nt7.png" },
       ]}
       title="Our Leadership"
       description="Passionate professionals driving the BRGD legacy."
@@ -120,7 +120,7 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t-1", name: "Sarah Miller", role: "Parent", company: "Academy User", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/father-daughter-laughing-together_23-2147615922.jpg" },
+        { id: "t-1", name: "Sarah Miller", role: "Parent", company: "Academy User", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?id=27507695" },
       ]}
       title="What Our Community Says"
       description="Hear from the athletes and families who trust our legacy."
