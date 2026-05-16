@@ -10,7 +10,6 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import Input from '@/components/form/Input';
 import { useState } from 'react';
@@ -66,9 +65,10 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextSplitAbout
       useInvertedBackground={false}
-      title="35 Years Shaping Champions"
+      title="CEO Biography: 35 Years of Strategic Leadership"
       description={[
-        "BRGD Sports Group delivers strategic and innovative solutions across the key areas of high-performance sports. We combine 35 years of legacy with modern management techniques.",        "Our integrated approach focuses on Athlete Management, Club Development, Sports Marketing, and large-scale event organization."]}
+        "Our CEO brings over three decades of unparalleled experience in the sports business industry, having been a driving force behind BRGD Sports Group since its inception. With a career spanning from early-stage athlete talent identification to the professional management of large-scale, international sporting events, our leadership is defined by a commitment to integrity, innovation, and athlete-centric development.",        "Under their guidance, BRGD has successfully navigated the complexities of club development and market expansion, positioning the firm as a premier name in the Jacksonville sports community and beyond. Their strategic vision continues to shape the next generation of champions, bridging the gap between potential and peak performance."
+      ]}
     />
   </div>
 
@@ -110,20 +110,6 @@ export default function LandingPage() {
       ]}
       title="Our Leadership"
       description="Passionate professionals driving the BRGD legacy."
-    />
-  </div>
-
-  <div id="testimonial" data-section="testimonial">
-      <TestimonialCardOne
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
-      testimonials={[
-        { id: "t-1", name: "Sarah Miller", role: "Parent", company: "Academy User", rating: 5, imageSrc: "https://img.b2bpic.net/free-photo/closeup-young-female-professional-making-eye-contact-against-colored-background_662251-651.jpg?id=27507695" },
-      ]}
-      title="What Our Community Says"
-      description="Hear from the athletes and families who trust our legacy."
     />
   </div>
 
